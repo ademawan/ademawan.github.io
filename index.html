@@ -7,11 +7,13 @@
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    
 
 </head>
 <body>
@@ -24,9 +26,9 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Beranda</a></li>
                 <li><a href="#about" class="menu-btn">Tentang</a></li>
-                <li><a href="#services" class="menu-btn">Gallery</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Keahlian</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#teams" class="menu-btn">Gallery</a></li>
                 <li><a href="#contact" class="menu-btn">Kontak</a></li>
             </ul>
             <div class="menu-btn">
@@ -69,25 +71,30 @@
     <!-- services section start -->
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">Gallery</h2>
-            <div class="gallery-content">
-                <img src="images/1.png" class="jumbo" alt="">
-                <div class="thumbnail">
-                    <img src="images/1.png" class="thumb" alt="">
-                    <img src="images/2.png" class="thumb" alt="">
-                    <img src="images/3.png" class="thumb" alt="">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p></p>
+                    </div>
                 </div>
-
-
-                <!-- <div class="kiri">
-                    <img class="1" src="images/3.png" alt="">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Advertising</div>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="tengah">
-                    <img class="2" src="images/1.png" alt="">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Apps Design</div>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="kanan">
-                    <img class="3" src="images/2.png" alt="">
-                </div> -->
+               </div>
             </div>
         </div>
     </section>
@@ -147,13 +154,39 @@
     <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">My teams</h2>
+            <h2 class="title">Gallery</h2>
             <div class="carousel owl-carousel owl-theme">
-                <div class="item"><img src="images/1.png" alt="The Last of us"></div>
+                <div class="slide slide-1">
+                    <div class="slide-content">
+                        <!-- <h1></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi distinctio et, natus eaque id eveniet laboriosam ducimus hic deserunt unde neque totam iste molestiae iure at nobis maxime ipsa.</p>
+                        <button>Kunjungi</button> -->
+                    </div>
+                </div>
+                <div class="slide slide-2">
+                    <div class="slide-content">
+                        <!-- <h1></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi distinctio et, natus eaque id eveniet laboriosam ducimus hic deserunt unde neque totam iste molestiae iure at nobis maxime ipsa.</p>
+                        <button>Kunjungi</button> -->
+                    </div>
+                </div>
+                <div class="slide slide-3">
+                    <div class="slide-content">
+                        <!-- <h1></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi distinctio et, natus eaque id eveniet laboriosam ducimus hic deserunt unde neque totam iste molestiae iure at nobis maxime ipsa.</p>
+                        <button>Kunjungi</button> -->
+                    </div>
+                </div>
+                <!-- <div class="item"><img src="images/1.png" alt="The Last of us"></div>
                 <div class="item"><img src="images/2.png" alt="GTA V"></div>
-                <div class="item"><img src="images/3.png" alt="Mirror Edge"></div>
+                <div class="item"><img src="images/3.png" alt="Mirror Edge"></div> -->
             </div>
-        </div>
+            <!-- <div class="owl-dots">
+                <div class="owl-dot active"><span></span></div>
+                <div class="owl-dot"><span></span></div>
+                <div class="owl-dot"><span></span></div>
+            </div>
+        </div> -->
     </section>
 
     <!-- contact section start -->
@@ -223,9 +256,10 @@
 
     <!-- footer section start -->
     <footer>
-        <span><span class="far fa-copyright"></span><a href="#home">Ademawan</a> |  2020</span>
+        <span><span class="far fa-copyright"></span><a href="#home">Ademawan</a> |  2021</span>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

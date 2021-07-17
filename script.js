@@ -49,17 +49,15 @@ $(document).ready(function(){
     });
 
     // owl carousel script
-    $('.carousel').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         nav: true, // Show next and prev buttons
         loop: true,
-      slideSpeed : 300,
-      paginationSpeed : 400,
- 
-      items : 1, 
-      itemsDesktop : false,
-      itemsDesktopSmall : false,
-      itemsTablet: false,
-      itemsMobile : false
+        autoplay: true,
+        slideSpeed : 300,
+        autoplaySpeed : 1000,
+        smartSpeed: 1500,
+        autoplayHoverPause: true,
+        items : 1, 
     });
 });
 
