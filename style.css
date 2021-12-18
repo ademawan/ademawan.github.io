@@ -441,6 +441,10 @@ section .title::after{
     background-image: url(images/Sepatu-Olahraga.png);
     background-size: 100% !important;
 }
+.slide-4{
+    background-image: url(images/TAMU-UNDANGAN.png);
+    background-size: 100% !important;
+}
 
 .slide-content{
     text-align: center;
