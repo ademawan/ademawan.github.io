@@ -106,6 +106,7 @@ $('#TombolPesan').click( function(e){
     var subject = $('#subject').val();
     var message = $('#message').val();
 
-        window.location = 'https://api.whatsapp.com/send?phone='+noWa+'&text=Nama:%20'+nama+'%20%0DEmail:%20'+email+'%20%0DSubject:%20'+subject+'%20%0DPesan:%20'+message
+    window.open('https://api.whatsapp.com/send?phone='+noWa+'&text=Nama:%20'+nama+'%20%0DEmail:%20'+email+'%20%0DSubject:%20'+subject+'%20%0DPesan:%20'+message);
+
 
   })
